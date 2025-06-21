@@ -161,7 +161,7 @@ ackSaveok.addEventListener("click", () => {
     busSelectSave.classList.add("hidden");
     const routeNumber = selectedRoute.replace("route", "");
     localStorage.setItem("defaultBusRoute", `route${routeNumber}`);
-    window.location.href = "../index.html";
+    window.location.href = "/index.html";
 });
 
 cancelClosePopup.addEventListener("click", () => {
