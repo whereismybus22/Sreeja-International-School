@@ -103,6 +103,7 @@ body, html {
   font-weight: 700;
   color:#000000;
   font-family: "Manrope",sans-serif;
+  user-select: none; 
 }
 
 .bus-list {
