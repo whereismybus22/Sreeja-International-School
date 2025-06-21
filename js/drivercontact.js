@@ -2,31 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const incharges = [
         { name: "Incharge 1", description: "Bus Route 1", phone: "tel:1234567890", whatsapp: "https://wa.me/1234567890" },
         { name: "Incharge 2", description: "Bus Route 2", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"},
-        { name: "Incharge 3", description: "Bus Route 3", phone: "tel:3456789012", whatsapp: "https://wa.me/3456789012"},
-        { name: "Incharge 4", description: "Bus Route 4", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"},
-        { name: "Incharge 5", description: "Bus Route 5", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"},
-        { name: "Incharge 6", description: "Bus Route 6", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"},
-        { name: "Incharge 7", description: "Bus Route 7", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"},
-        { name: "Incharge 8", description: "Bus Route 8", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"},
-        { name: "Incharge 9", description: "Bus Route 9", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"},
-        { name: "Incharge 10", description: "Bus Route 10", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"},
-        { name: "Incharge 11", description: "Bus Route 11", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"},
-        { name: "Incharge 12", description: "Bus Route 12", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901"}
+        { name: "Incharge 3", description: "Bus Route 3", phone: "tel:3456789012", whatsapp: "https://wa.me/3456789012"}
     ];
 
     const drivers = [
         { name: "Route 1", description: "Name 1", phone: "tel:1234567890", whatsapp: "https://wa.me/1234567890" },
         { name: "Route 2", description: "Name 2", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" },
-        { name: "Route 3", description: "Name 3", phone: "tel:3456789012", whatsapp: "https://wa.me/3456789012" },
-        { name: "Route 4", description: "Name 4", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" },
-        { name: "Route 5", description: "Name 5", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" },
-        { name: "Route 6", description: "Name 6", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" },
-        { name: "Route 7", description: "Name 7", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" },
-        { name: "Route 8", description: "Name 8", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" },
-        { name: "Route 9", description: "Name 9", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" },
-        { name: "Route 10", description: "Name 10", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" },
-        { name: "Route 11", description: "Name 11", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" },
-        { name: "Route 12", description: "Name 12", phone: "tel:2345678901", whatsapp: "https://wa.me/2345678901" }
+        { name: "Route 3", description: "Name 3", phone: "tel:3456789012", whatsapp: "https://wa.me/3456789012" }
     ];
 
     const inchargeContainer = document.getElementById("busIncharge");

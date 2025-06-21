@@ -388,8 +388,7 @@
         let busMarkers = {
             bus1: null,
             bus2: null,
-            bus9: null,
-            bus21: null
+            bus3: null
         };
         let deviceLocationMarker;
         let markersClusterGroup = L.markerClusterGroup({
@@ -441,8 +440,7 @@
                 const busData = {
                     bus1: filterBusData(data, 459),
                     bus2: filterBusData(data, 450),
-                    // bus9: filterBusData(data, 447),
-                    bus21: filterBusData(data, 477)
+                    bus3: filterBusData(data, 477)
                 };
 
                 updateBusMarkers(busData);
@@ -527,8 +525,7 @@
             const busIcons = {
                 bus1: '/img/one.svg',
                 bus2: '/img/two.svg',
-                bus9: '/img/nine.svg',
-                bus21: '/img/twentyone.svg'
+                bus3: '/img/three.svg',
             };
 
             // Clear previous markers from the cluster group
